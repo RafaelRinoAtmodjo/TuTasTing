@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="style.css">
     <title>TuTasTing</title>
 </head>
 <body>
-    <header>
-
+    <header id="app">
+        <div class="summary">
+            <h1 class="title">Match Result</h1>
+            <h1 class="result"></h1>
+        </div>
+        <div class="game">
+            <div class="option" onclick="pickOption('✊')">✊</div>
+            <div class="option" onclick="pickOption('🤚')">🤚</div>
+            <div class="option" onclick="pickOption('✌️')">✌️</div>
+        </div>
     </header>
+
+    <script src="main.js"></script>
 </body>
 </html>
